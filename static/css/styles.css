@@ -1,0 +1,154 @@
+td {
+    transition: all 0.2s ease;
+}
+
+label, th, td {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 14px;
+}
+
+/* Container principal */
+#page {
+    background-color: #F9F9F9;
+    width: 90%;
+}
+
+/* Barra de navegação */
+#bar {
+    background-color: #F4F4F4;
+}
+
+.navbar-brand {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* Menu dropdown */
+.order_button {
+    border: 1px solid #D9D9D9;
+    color: #393939;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.order_button:hover {
+    border: 1px solid #B1B1B1;
+    color: #393939;
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    background-color: #F9F9F9;
+    transition: all 0.1s ease;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover {
+    background-color: #E9E9E9;
+    color: #191919;
+}
+
+/* Resposta da operação */
+.alert {
+    font-size: 13px;
+}
+
+/* Botão para adicionar projetos */
+.add_button {
+    background-color: #50C878;
+    color: #F9F9F9;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.add_button:hover {
+    background-color: #42B265;
+    color: #F9F9F9;
+}
+
+/* Background do modal */
+.modal-content {
+    background-color: #F9F9F9;
+}
+
+/* Marcação para os Status dos projetos */
+.color_mark {
+    font-size: 13px;
+    padding: 2px 7px;
+}
+
+/* Botões para editar/deletar projetos */
+.edit_button, .del_button {
+    color: #393939;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit_button:hover {
+    color:#FFBA00;
+}
+
+.del_button:hover {
+    color: #C21807;
+}
+
+/* Configuração padrão para botões do modal de remoção */
+.button {
+    padding: 5px 20px;
+    transition: all 0.3s ease;
+}
+
+/* Botão para confirmar a remoção */
+.remove_button {
+    background-color: #E45253;
+    color: #F9F9F9;
+}
+
+.remove_button:hover {
+    color: #F9F9F9;
+    background-color: #CB4447;
+}
+
+/* Botão para cancelar a remoção */
+.cancel_button {
+    border: 1px solid #292929;
+    color: #393939;
+}
+
+.cancel_button:hover {
+    color: #F9F9F9;
+    background-color: #4E4E4E;
+}
+
+/* Configuração padrão para enviar/editar projetos */
+.send_button {
+    background-color: #50C878;
+    color: #F9F9F9;
+}
+
+.send_button:hover {
+    background-color: #42B265;
+    color: #F9F9F9;
+}
+
+/* Botão para fechar o modal */
+.btn-close {
+    font-size: 13px;
+}
+
+/* Tamanho do modal */
+.modal-dialog {
+    width: 40%;
+}
+
+/* Caixas de texto do formulário */
+input[type="text"], input[type="date"], input[type="number"] {
+    font-size: 14px;
+    height: 30px;
+    letter-spacing: 1px;
+}
+
+select.form-control {
+    font-size: 14px;
+}
